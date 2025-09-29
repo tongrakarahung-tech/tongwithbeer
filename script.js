@@ -6,7 +6,7 @@ const ALL_COUPLE_IMAGES = [
     "p1.jpg", "p2.jpg", "p3.jpg", "p4.jpg", "p5.jpg", 
     "p6.jpg", "p7.jpg", "p8.jpg", "p9.jpg", "p10.jpg", 
     "p11.jpg", "p12.jpg", "p13.jpg", "p14.jpg", 
-    "mark_1.jpg", "mark_2.jpg", "mark_3.jpg", "mark_4.jpg" 
+    "spl1.jpg", "mark_2.jpg", "mark_3.jpg", "mark_4.jpg" 
 ]; // รวม 18 รูป
 
 // ใช้สำหรับหน้า Login (วนซ้ำ 18 รูป)
@@ -578,4 +578,5 @@ function unflipCards() {
 function resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
+
 }
